@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install 5l-labs/tap/<formula>`
+`brew tap 5l-labs/citrix-cli`
 
-Or `brew tap 5l-labs/tap` and then `brew install <formula>`.
+Or `brew tap 5l-labs/citrix-cli` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
@@ -15,4 +15,4 @@ brew "<formula>"
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh/Taps).
