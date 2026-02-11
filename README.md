@@ -1,18 +1,33 @@
-# 5L-Labs Tap
+# Citrix Workspace Manager
 
-## How do I install these formulae?
+A Homebrew tap for [citrix-workspace-manager](https://github.com/5L-Labs/osx-citrix-manager-cli) (`cwm`) — safely park and unpark Citrix Workspace on macOS without rebooting.
 
-`brew install 5l-labs/tap/<formula>`
+## Installation
 
-Or `brew tap 5l-labs/tap` and then `brew install <formula>`.
+### Step 1: Add the tap
 
-Or, in a `brew bundle` `Brewfile`:
+```sh
+brew tap 5L-Labs/citrix-cli
+```
 
-```ruby
-tap "5l-labs/tap"
-brew "<formula>"
+### Step 2: Install the formula
+
+```sh
+brew install citrix-workspace-manager
+```
+
+### Or as a one-liner
+
+```sh
+brew install 5L-Labs/citrix-cli/citrix-workspace-manager
+```
+
+## Usage
+
+```sh
+cwm --help
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh/Taps).
